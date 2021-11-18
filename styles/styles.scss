@@ -4,18 +4,12 @@
 
 
 @media (max-width:920px) {
-    main{
-        flex-direction: column;
-    }
-    .attribution{
-        display: block;
-    }
-
     .card-component{
         display: block;
         width: 20.4375rem;
-        height: 27.5625rem;
+        height: 82.821875rem;
         margin-top:5.5rem;
+        margin-bottom: 5.5rem;
 
         .card{
             padding-top: 2.875rem;
