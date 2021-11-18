@@ -5,6 +5,7 @@
     margin-top: 10.5625rem;    
     h2{
         @include title();
+        margin:0;
     }
     button{
         background-color: $veryLightGray;
