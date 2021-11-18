@@ -1,0 +1,33 @@
+// Card colors
+$firstCard: hsl(31, 77%, 52%);
+$secondCard: hsl(184, 100%, 22%);
+$thirdCard: hsl(179, 100%, 13%);
+
+//Colors of the other components
+$paragraphs: hsla(0, 0%, 100%, 0.75);
+$veryLightGray: hsl(0, 0%, 95%);
+
+//Fonts
+$fontTitle:'Big Shoulders Display', cursive;
+$weightTitle:700;
+$fontByDefault:'Lexend Deca', sans-serif;
+$weightByDefault:400;
+
+//Short ways
+@mixin title () {
+    font-size: 2.25rem;
+    font-family: $fontTitle;
+    font-weight: $weightTitle;
+    color:$veryLightGray;
+    text-transform: uppercase;
+}
+
+@mixin  flexCenter () {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+
+
+

@@ -1,0 +1,53 @@
+.card-component{
+    @include flexCenter();
+    width: 57.625rem;
+    height: 31.25rem;
+    margin-top: 10.5625rem;    
+    h2{
+        @include title();
+    }
+    button{
+        background-color: $veryLightGray;
+        width:9.0625rem;
+        height: 3rem;
+        border: 0px;
+        border-radius: 2.5rem;
+        margin:0 auto;
+        margin-top:4.625rem;
+        &:hover{
+            background-color: transparent;
+            color:$veryLightGray;
+            border:$veryLightGray solid 1px;
+        }
+    }
+    .first-btn{
+        color:$firstCard;
+    }
+    .second-btn{
+        color:$secondCard;
+    }
+    .third-btn{
+        color:$thirdCard;
+    }
+}
+
+.card{
+    padding-top: 3rem;
+    padding-right: 4.125rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+}
+
+.first{
+    background-color: $firstCard;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.second{
+    background-color: $secondCard;
+}
+
+.third{
+    background-color: $thirdCard;
+    border-radius: 0 0.5rem 0.5rem 0;
+}

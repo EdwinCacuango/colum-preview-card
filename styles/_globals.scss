@@ -1,0 +1,25 @@
+html{
+    font-size:100%;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: $veryLightGray;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: $fontByDefault;
+    font-weight: $weightByDefault;
+    font-size: 1rem;
+    color:$paragraphs;
+}
+
+main{  
+  @include flexCenter();
+}

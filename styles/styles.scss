@@ -1,0 +1,37 @@
+@import "variables";
+@import "globals";
+@import "card-component";
+
+
+@media (max-width:920px) {
+    main{
+        flex-direction: column;
+    }
+    .attribution{
+        display: block;
+    }
+
+    .card-component{
+        display: block;
+        width: 20.4375rem;
+        height: 27.5625rem;
+        margin-top:5.5rem;
+
+        .card{
+            padding-top: 2.875rem;
+            padding-left: 3.125rem;
+            padding-right: 3.25rem;
+            padding-bottom: 3rem;
+        }
+        .first{
+            border-radius: 0.5rem 0.5rem 0 0;
+        }
+        .third{
+            border-radius: 0 0 0.5rem 0.5rem;
+        }
+        button{
+            margin-top: 1.75rem;
+        }
+    }
+
+}

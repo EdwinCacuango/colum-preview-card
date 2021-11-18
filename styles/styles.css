@@ -1,0 +1,139 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 57.625rem;
+  height: 31.25rem;
+  margin-top: 10.5625rem;
+}
+
+.card-component h2 {
+  font-size: 2.25rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.card-component button {
+  background-color: #f2f2f2;
+  width: 9.0625rem;
+  height: 3rem;
+  border: 0px;
+  border-radius: 2.5rem;
+  margin: 0 auto;
+  margin-top: 4.625rem;
+}
+
+.card-component button:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+  border: #f2f2f2 solid 1px;
+}
+
+.card-component .first-btn {
+  color: #e38826;
+}
+
+.card-component .second-btn {
+  color: #006970;
+}
+
+.card-component .third-btn {
+  color: #004241;
+}
+
+.card {
+  padding-top: 3rem;
+  padding-right: 4.125rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+}
+
+.first {
+  background-color: #e38826;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.second {
+  background-color: #006970;
+}
+
+.third {
+  background-color: #004241;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+@media (max-width: 920px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .attribution {
+    display: block;
+  }
+  .card-component {
+    display: block;
+    width: 20.4375rem;
+    height: 27.5625rem;
+    margin-top: 5.5rem;
+  }
+  .card-component .card {
+    padding-top: 2.875rem;
+    padding-left: 3.125rem;
+    padding-right: 3.25rem;
+    padding-bottom: 3rem;
+  }
+  .card-component .first {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .card-component .third {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  .card-component button {
+    margin-top: 1.75rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
